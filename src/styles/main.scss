@@ -1,0 +1,21 @@
+$font-size: 1rem;
+$font-color: lch(53 105 40);
+
+html {
+    font-size: $font-size;
+    color: $font-color;
+}
+
+th {
+    border: 1px solid black;
+}
+
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+}
+article {
+    width: 320px;
+    margin: 20px;
+}
