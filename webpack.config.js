@@ -52,7 +52,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: "webpack Boilerplate",
-      template: path.resolve(__dirname, "./src/template.html"), // шаблон
+      template: path.resolve(__dirname, "./src/index.html"), // шаблон
       filename: "index.html", // название выходного файла
     }),
     // применять изменения только при горячей перезагрузке
