@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/AnnaDorosheva/fetch-api/issues"
   },
-  "homepage": "https://github.com/AnnaDorosheva/fetch-api#readme",
+  "homepage": "https://github.com/AnnaDorosheva/fetch-api/",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "handlebars": "^4.7.7",
