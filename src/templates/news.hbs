@@ -1,6 +1,9 @@
-<article>
+{{#each this}}
+<li class="article">
   <img src="{{urlToImage}}" width="300">
-  <h2>{{title}}</h2>
-  <p>Publised by:{{author}}</p>
+  <a href="{{url}}" target="_blank" rel="noopener noreferrer"><h2>{{title}}</h2></a>
+  <p class="date">Published at: {{publishedAt}}</p>
+  <p>Publised by: {{author}}</p>
   <p>{{description}}</p>
-</article>
+</li>
+{{/each}}
