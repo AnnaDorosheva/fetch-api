@@ -9,16 +9,16 @@ export default {
   page: 1,
   query: "",
   feachArticles() {
-    const options = {
-      headers: {
-        // Authorization: "5586a16d91a8437d9271f83485961bc6",
-        Accept: "application/json",
-      },
-    };
+    // const options = {
+    //   headers: {
+    //     // Authorization: "5586a16d91a8437d9271f83485961bc6",
+    //     Accept: "application/json",
+    //   },
+    // };
 
     const params = `&q=${this.query}&page=${this.page}`;
 
-    return fetch(baseUrl + params, options).then((response) => {
+    return fetch(baseUrl + params).then((response) => {
       this.inctementPage();
       return response.json();
     });
