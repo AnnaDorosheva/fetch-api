@@ -13,7 +13,6 @@ export default {
       headers: {
         // Authorization: "5586a16d91a8437d9271f83485961bc6",
         Accept: "application/json",
-        mode: "no-cors",
       },
     };
 
