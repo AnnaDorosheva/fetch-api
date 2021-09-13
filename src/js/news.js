@@ -33,7 +33,8 @@ function featchArticleList() {
     .feachArticles()
     .then((data) => {
       spinner.hide();
-      const markup = buildListMarckupItems(data.articles);
+      console.log(data);
+      const markup = buildListMarckupItems(data.results);
       appendArticlesToSite(markup);
     })
     .catch((error) => console.warn(error));
