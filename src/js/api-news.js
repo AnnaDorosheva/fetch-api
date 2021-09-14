@@ -7,7 +7,7 @@ export default {
   feachArticles() {
     const options = {
       headers: {
-        Authorization: "5586a16d91a8437d9271f83485961bc6",
+        "X-Api-Key": "5586a16d91a8437d9271f83485961bc6",
       },
     };
     const params = `q=${this.query}&page=${this.page}&pageSize=3`;
