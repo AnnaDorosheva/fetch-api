@@ -1,5 +1,5 @@
 const baseUrl = "https://newsapi.org/v2/everything?";
-// const key = "apiKey=5586a16d91a8437d9271f83485961bc6";
+
 
 export default {
   page: 1,
